@@ -50,14 +50,6 @@ These logs help with performance analysis, troubleshooting, and capacity plannin
 <img width="940" height="284" alt="image" src="https://github.com/user-attachments/assets/2e48f6e2-003d-4410-a350-b3e74f4f2734" />
 
 
-
-
-
-
-
-
-
-
 **✅ Task 2: User Management and Access Control**
 ===============================================
 
@@ -65,13 +57,20 @@ Secure user accounts were created for the new developers with isolated workspace
 👤 Users Created
 sarah
 mike
+
+<img width="940" height="468" alt="image" src="https://github.com/user-attachments/assets/fc61fb8b-1154-4dee-8a0f-091578be8b62" />
+
 📁 Workspace Directories
 Sarah: /home/sarah/workspace
 Mike: /home/mike/workspace
+<img width="940" height="456" alt="image" src="https://github.com/user-attachments/assets/198b143c-eee9-4d75-a401-965e28218838" />
+
 🔐 Security Controls Implemented
 Directory permissions set to 700
 Ownership restricted to respective users
 Password expiration enforced every 30 days
+<img width="940" height="349" alt="image" src="https://github.com/user-attachments/assets/f9c189a6-9cba-4013-9a91-2ecc70beadb7" />
+
 Password expiry warnings enabled prior to expiration
 These measures ensure data confidentiality, access isolation, and compliance with security standards.
 
@@ -87,6 +86,9 @@ Backup Script: apache_backup.sh
 Configuration Directory: /etc/nginx/
 Document Root: /usr/share/nginx/html/
 Backup Script: nginx_backup.sh
+
+<img width="940" height="456" alt="image" src="https://github.com/user-attachments/assets/d9ae4343-67cb-4e1a-8f9a-22efc680ac29" />
+
 ⏰ Backup Schedule
 Frequency: Every Tuesday
 Time: 12:00 AM
@@ -103,14 +105,18 @@ sudo crontab -l
 0 0 * * 2 /usr/local/bin/apache_backup.sh
 0 0 * * 2 /usr/local/bin/nginx_backup.sh
 Verification logs confirm that backups are successfully created and readable.
+
+<img width="891" height="179" alt="image" src="https://github.com/user-attachments/assets/89dd20cc-0f9b-41b4-b56f-5b5db23480df" />
+
 📁 Repository Contents
-Monitoring scripts and logs
-User management configurations
-Backup scripts and cron jobs
-Verification logs
-Documentation and screenshots
+Monitoring scripts and logs.
+User management configurations.
+Backup scripts and cron jobs.
+Verification logs.
+Documentation and screenshots.
 All scripts, logs, and documentation related to the assignment are available in this repository.
-🏁 Conclusion
+**🏁 Conclusion**
+===========================
 This project demonstrates the implementation of core DevOps responsibilities, including:
 System monitoring and logging
 Secure user and access management

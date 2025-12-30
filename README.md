@@ -35,6 +35,27 @@ These logs help with performance analysis, troubleshooting, and capacity plannin
 
 <img width="940" height="197" alt="image" src="https://github.com/user-attachments/assets/f7e2b147-9b54-4fa2-b33d-32e2d0869ec5" />
 
+<img width="940" height="390" alt="image" src="https://github.com/user-attachments/assets/f4245212-5e1a-450d-bf89-c4ece39b58fa" />
+
+<img width="940" height="162" alt="image" src="https://github.com/user-attachments/assets/8036f164-946e-4f89-a939-927fc7bf63b0" />
+
+<img width="940" height="206" alt="image" src="https://github.com/user-attachments/assets/60c6272a-093b-40e1-8ae6-e8e7ea051a2d" />
+
+<img width="940" height="213" alt="image" src="https://github.com/user-attachments/assets/42bfcb63-b3e8-4609-a2fa-66b44d046049" />
+
+<img width="940" height="209" alt="image" src="https://github.com/user-attachments/assets/146e50a9-1a82-40b2-b1b6-0bf3af759db8" />
+
+<img width="479" height="316" alt="image" src="https://github.com/user-attachments/assets/540c7fa0-6692-4701-8af9-15788874eaac" />
+
+<img width="940" height="284" alt="image" src="https://github.com/user-attachments/assets/2e48f6e2-003d-4410-a350-b3e74f4f2734" />
+
+
+
+
+
+
+
+
 
 
 **✅ Task 2: User Management and Access Control**

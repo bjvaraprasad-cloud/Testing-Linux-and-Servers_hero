@@ -1,0 +1,46 @@
+root@ip-172-31-6-20:/var/log# cat system_monitor.log
+===== Tue Dec 30 09:30:01 UTC 2025 =====
+CPU & Memory:
+top - 09:30:01 up 39 min,  1 user,  load average: 0.20, 0.05, 0.02
+Tasks: 121 total,   2 running, 119 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  5.6 sy,  0.0 ni, 50.0 id,  0.0 wa,  0.0 hi,  0.0 si, 44.4 st 
+MiB Mem :    957.3 total,    204.4 free,    437.1 used,    518.1 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.    520.2 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+      1 root      20   0   22652  13760   9536 S   0.0   1.4   0:02.61 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+Disk Usage:
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/root       6.8G  2.1G  4.7G  31% /
+tmpfs           479M     0  479M   0% /dev/shm
+tmpfs           192M  896K  191M   1% /run
+tmpfs           5.0M     0  5.0M   0% /run/lock
+/dev/xvda16     881M   89M  730M  11% /boot
+/dev/xvda15     105M  6.2M   99M   6% /boot/efi
+tmpfs            96M   12K   96M   1% /run/user/1000
+
+===== Tue Dec 30 10:00:01 UTC 2025 =====
+CPU & Memory:
+top - 10:00:01 up  1:09,  1 user,  load average: 0.00, 0.07, 0.05
+Tasks: 118 total,   1 running, 117 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni,100.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :    957.3 total,    187.9 free,    424.5 used,    547.3 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.    532.8 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+      1 root      20   0   22572  13848   9624 S   0.0   1.4   0:05.76 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+Disk Usage:
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/root       6.8G  2.3G  4.5G  34% /
+tmpfs           479M     0  479M   0% /dev/shm
+tmpfs           192M  896K  191M   1% /run
+tmpfs           5.0M     0  5.0M   0% /run/lock
+/dev/xvda16     881M  155M  665M  19% /boot
+/dev/xvda15     105M  6.2M   99M   6% /boot/efi
+tmpfs            96M   12K   96M   1% /run/user/1000
+
+root@ip-172-31-6-20:/var/log# 

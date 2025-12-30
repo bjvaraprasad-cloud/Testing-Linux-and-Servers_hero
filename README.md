@@ -108,13 +108,7 @@ Verification logs confirm that backups are successfully created and readable.
 
 <img width="891" height="179" alt="image" src="https://github.com/user-attachments/assets/89dd20cc-0f9b-41b4-b56f-5b5db23480df" />
 
-📁 Repository Contents
-Monitoring scripts and logs.
-User management configurations.
-Backup scripts and cron jobs.
-Verification logs.
-Documentation and screenshots.
-All scripts, logs, and documentation related to the assignment are available in this repository.
+
 **🏁 Conclusion**
 ===========================
 This project demonstrates the implementation of core DevOps responsibilities, including:

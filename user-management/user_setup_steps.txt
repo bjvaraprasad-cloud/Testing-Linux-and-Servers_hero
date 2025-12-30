@@ -20,7 +20,7 @@ User Management and Access Control Steps
 
 6. Enforced password policy:
    - Password expiry set to 30 days
-   - Warning period set to 7 days
+   - Warning period set to 9 days
 
 7. Verified password policies using:
    chage -l sarah
